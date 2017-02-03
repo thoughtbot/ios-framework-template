@@ -1,0 +1,15 @@
+machine:
+  xcode:
+    version: "8.2"
+
+dependencies:
+  override:
+    - bin/bootstrap-if-needed
+    - pod setup
+  cache_directories:
+    - "Carthage"
+    - "~/.cocoapods"
+
+test:
+  post:
+    - pod lib lint
