@@ -40,6 +40,13 @@ may be redistributed under the terms specified in the [LICENSE][] file.
 
 [LICENSE]: LICENSE
 
+## Contributing
+
+See the [CONTRIBUTING][] document. Thank you, [contributors][]!
+
+[CONTRIBUTING]: CONTRIBUTING.md
+[contributors]: https://github.com/thoughtbot/Superb/graphs/contributors
+
 ## About thoughtbot
 
 ![thoughtbot](https://thoughtbot.com/logo.png)
