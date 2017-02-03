@@ -1,0 +1,13 @@
+machine:
+  xcode:
+    version: "8.2"
+
+dependencies:
+  pre:
+    - brew update
+    - brew upgrade carthage
+    - brew install cookiecutter
+
+test:
+  override:
+    - bin/test
