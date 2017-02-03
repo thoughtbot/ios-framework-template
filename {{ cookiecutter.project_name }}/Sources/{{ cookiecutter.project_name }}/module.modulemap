@@ -1,0 +1,6 @@
+framework module {{ cookiecutter.project_name }} [system] {
+  umbrella header "{{ cookiecutter.project_name }}.h"
+
+  export *
+  module * { export * }
+}
