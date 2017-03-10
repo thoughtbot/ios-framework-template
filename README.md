@@ -49,7 +49,7 @@ See the [CONTRIBUTING][] document. Thank you, [contributors][]!
 
 ## About thoughtbot
 
-![thoughtbot](https://thoughtbot.com/logo.png)
+![thoughtbot](http://presskit.thoughtbot.com/images/thoughtbot-logo-for-readmes.svg)
 
 ios-framework-template is maintained and funded by thoughtbot, inc. The names
 and logos for thoughtbot are trademarks of thoughtbot, inc.
