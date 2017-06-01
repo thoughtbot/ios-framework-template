@@ -8,10 +8,10 @@ to="{{ cookiecutter.project_name }}"
 rm -rf TempProject
 cp -r $from ./TempProject
 
-find TempProject \( -type d -name "Carthage" \) -prune -o -type f -print0 \
-  | xargs -0 ruby -p -i -e "gsub /$from/, \"$to\"" --
+find TempProject \( -type d -name "Carthage" -o -name "xcuserdata" \) -prune -o -type f -print0 \
+  | xargs -0 ruby -p -i -e "gsub /$from/, \"$to\""
 
-find TempProject \( -type d -name "Carthage" \) -prune -o -d -name "$from*" -print0 \
+find TempProject \( -type d -name "Carthage" -o -name "xcuserdata" \) -prune -o -d -name "$from*" -print0 \
   | xargs -0 rename "s/$from([^\/]*)$/$to\$1/"
 
 rm -rf "$to"
