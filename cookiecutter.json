@@ -5,6 +5,7 @@
   "podspec_description": "",
   "author_name": "",
   "author_email": "",
+  "copyright_holder": "thoughtbot, inc.",
   "github_user": "{{ cookiecutter.company_name }}",
   "homepage": "https://github.com/{{ cookiecutter.github_user }}/{{ cookiecutter.project_name }}",
   "social_media_url": ""
